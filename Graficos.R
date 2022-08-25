@@ -45,6 +45,9 @@ print(instrucao.p)
 
 # Grafico De Barras
 barplot(table(instrucao)) #default
+barplot(table(instrucao), col=c(2,5,8))
+barplot(table(instrucao), col=('red', 'pink', 'blue'))
+title(sub='Figura 2: Grafico de barras para a variavel Grau de Instrucao')
 
 
 
